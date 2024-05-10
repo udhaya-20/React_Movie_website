@@ -1,0 +1,69 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  opacity: 1;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-bounce 2s ease-in-out 1s infinite normal none running;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-bounce{
+  0% {
+      transform: translateY(0px);
+  }
+  20% {
+      transform: translateY(20px);
+  }
+  40% {
+      
+      transform: translateY(0px);
+  }
+  100% {
+      
+      transform: translateY(20px);
+  }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --background-color: #282828;
+  --primary-text-color: white;
+  --card-bg-color:gray;
+}
+.body{
+  background-color: var(--background-color);
+  overflow: hidden;
+}
+.main{
+  /* margin-left:1.8rem; */
+  margin: 3rem 4rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

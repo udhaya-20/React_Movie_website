@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap');
+
+.view-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    /* border-radius: 4px; */
+    background-color: #282828;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.view-img-container{
+    width: 100%;
+    height: 100%;
+}
+.view-img{
+    margin: 30px auto;
+    width: 95%;
+    height: 35rem;
+    object-fit:fill;
+    position:relative;
+    border-radius: 4px;
+    opacity: 1;
+    display: block;
+    /* transition: .5s ease; */
+    backface-visibility: hidden;
+}
+.imdb-img{
+    margin-bottom:-9px;
+    width:70px;
+    height:30px;
+    border-radius: 5px;
+}
+.view-details{
+    margin: -20px 30px 30px 30px;
+}
+.m-title{
+    font-size: 50px;
+    color:white;
+    font-family: "Big Shoulders Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal;
+    letter-spacing: 1px;
+}
+.viewpage-genre{
+    margin-top: 20px;
+}
+.m-genre{
+    font-size: 17px;
+    color: white;  
+}
+.m-rating{
+    margin: 15px 0px 15px 0px;
+    color: white;
+    font-size: 17px;
+}
+.m-rating .votes{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.m-duration{
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.m-year{
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+.m-certificate {
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+.dir-name{
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+.writer-name{
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+.cast-name{
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}

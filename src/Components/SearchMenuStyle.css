@@ -1,0 +1,29 @@
+.searchbar{
+    color: #555;
+    padding: 2px;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  .searchbar input[type="search"] {
+    border: none;
+    margin: 1px;
+    padding: 5px 8px ;
+    font-size: 15px;
+    width: 25rem;
+    color: inherit;
+    border-radius: 1rem;
+  }
+  .searchbar input[type="search"]:focus{
+    outline-color: transparent;
+  }
+  
+  input[type="search"]::placeholder {
+    color: black;
+  }
+  .searchbtn{
+    border: none;
+    background:transparent;
+    padding-top: 8px;
+    padding-left: 8px;
+    border: 1px solid transparent;
+  }

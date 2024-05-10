@@ -1,0 +1,64 @@
+.mask{
+    padding-top: 5rem;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+.homeimg{
+    height: 70vh;
+    width: 100%;
+    object-fit:fill;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* object-fit:scale-down; */
+}
+.mask::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.20;
+
+}
+.info{
+    font-size:50px;
+    height: 20rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+}
+.explore{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.auth-container{
+    display: flex;
+    gap: 20px;
+    margin: 30px 155px;
+}
+.auth-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color:black;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.auth-btn:hover{
+    background-color: crimson;
+}
